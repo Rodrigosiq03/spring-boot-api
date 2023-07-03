@@ -12,10 +12,10 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
-import med.voli.api.doctor.DataCreationDoctor;
-import med.voli.api.doctor.DataDetailDoctor;
-import med.voli.api.doctor.EntityDoctor;
-import med.voli.api.doctor.IDoctorRepository;
+import med.voli.api.domain.doctor.DataCreationDoctor;
+import med.voli.api.domain.doctor.DataDetailDoctor;
+import med.voli.api.domain.doctor.EntityDoctor;
+import med.voli.api.domain.doctor.IDoctorRepository;
 
 
 @RestController

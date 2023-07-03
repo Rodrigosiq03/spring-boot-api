@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import med.voli.api.doctor.DataGetAllDoctors;
-import med.voli.api.doctor.IDoctorRepository;
+import med.voli.api.domain.doctor.DataGetAllDoctors;
+import med.voli.api.domain.doctor.IDoctorRepository;
 
 @RestController
 @RequestMapping("/get-all-doctors")

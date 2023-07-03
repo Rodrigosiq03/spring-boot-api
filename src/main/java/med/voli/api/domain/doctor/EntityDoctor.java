@@ -1,4 +1,4 @@
-package med.voli.api.doctor;
+package med.voli.api.domain.doctor;
 
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
@@ -13,7 +13,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import med.voli.api.address.Address;
+import med.voli.api.domain.address.Address;
 
 @Table(name = "doctors")
 @Entity(name = "Doctor")

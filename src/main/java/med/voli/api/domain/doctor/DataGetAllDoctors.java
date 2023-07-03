@@ -1,4 +1,4 @@
-package med.voli.api.doctor;
+package med.voli.api.domain.doctor;
 
 public record DataGetAllDoctors(
     Long id,

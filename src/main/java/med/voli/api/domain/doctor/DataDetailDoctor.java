@@ -1,6 +1,6 @@
-package med.voli.api.doctor;
+package med.voli.api.domain.doctor;
 
-import med.voli.api.address.Address;
+import med.voli.api.domain.address.Address;
 
 public record DataDetailDoctor(Long id, String nome, String email, String crm, String telefone, Speciality especialidade, Address endereco) {
     public DataDetailDoctor (EntityDoctor doctor) {

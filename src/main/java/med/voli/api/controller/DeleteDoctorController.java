@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import med.voli.api.doctor.IDoctorRepository;
+import med.voli.api.domain.doctor.IDoctorRepository;
 
 @RestController
 @RequestMapping("/delete-doctor/{id}")

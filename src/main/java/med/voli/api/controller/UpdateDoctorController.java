@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
-import med.voli.api.doctor.DataDetailDoctor;
-import med.voli.api.doctor.DataUpdateDoctor;
-import med.voli.api.doctor.IDoctorRepository;
+import med.voli.api.domain.doctor.DataDetailDoctor;
+import med.voli.api.domain.doctor.DataUpdateDoctor;
+import med.voli.api.domain.doctor.IDoctorRepository;
 
 @RestController
 @RequestMapping("/update-doctor/{id}")

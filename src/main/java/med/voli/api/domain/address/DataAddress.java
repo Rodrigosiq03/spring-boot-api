@@ -1,4 +1,4 @@
-package med.voli.api.address;
+package med.voli.api.domain.address;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
