@@ -25,7 +25,7 @@ public class UpdateDoctorController {
     @PutMapping
     @Transactional
     @ResponseBody
-    public ResponseEntity updateDoctor(@PathVariable long id, @RequestBody @Valid DataUpdateDoctor data) {
+    public ResponseEntity<DataDetailDoctor> updateDoctor(@PathVariable long id, @RequestBody @Valid DataUpdateDoctor data) {
         var doctor = repo.getReferenceById(id);
         doctor.updateInfo(data);
 
