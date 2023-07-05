@@ -1,6 +1,7 @@
 package med.voli.api.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -28,7 +29,7 @@ public class CreateDoctorController {
     @PostMapping
     @Transactional
     @ResponseBody
-    @ResponseStatus(code = org.springframework.http.HttpStatus.CREATED)
+    @ResponseStatus(code = HttpStatus.CREATED)
     public ResponseEntity<DataDetailDoctor> registerDoctor(@RequestBody @Valid DataCreationDoctor data, UriComponentsBuilder uriBuilder) {
 
         var doctor = new EntityDoctor(data);
